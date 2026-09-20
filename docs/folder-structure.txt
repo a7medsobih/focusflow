@@ -1,0 +1,75 @@
+next-template/
+│
+├── app/                              # Next.js App Router
+│   ├── [locale]/                     # Localized routes (en / ar)
+│   │   ├── layout.js                 # Root layout, direction, and SEO metadata
+│   │   └── page.js                   # Home page
+│   ├── error.js                      # Error boundary
+│   ├── loading.js                    # Loading state
+│   ├── not-found.js                  # 404 page
+│   ├── robots.js                     # robots.txt metadata
+│   └── sitemap.js                    # sitemap.xml metadata
+│
+├── assets/                           # Project assets
+│   └── logo.png
+│
+├── components/                       # Reusable React components
+│   ├── layout/
+│   │   ├── Navbar.jsx                # Navigation placeholder
+│   │   └── Footer.jsx                # Footer placeholder
+│   ├── ui/                           # UI components
+│   │   ├── button.jsx
+│   │   ├── Slider.jsx
+│   │   └── Spinner.jsx
+│   ├── common/
+│   │   └── Card.jsx                  # Reusable card placeholder
+│   ├── animations/
+│   │   └── Reveal.jsx                # Scroll reveal animation
+│   ├── skeletons/                    # Loading skeleton placeholders
+│   │   └── .gitkeep
+│   ├── EmptyState.jsx/               # Empty state placeholder
+│   └── LanguageSwitcher.jsx          # Language switcher
+│
+├── i18n/                             # next-intl configuration
+│   ├── routing.js                    # Supported and default locales
+│   ├── navigation.js                 # Locale-aware navigation helpers
+│   └── request.js                    # Translation message loading
+│
+├── messages/                         # Translation messages and metadata
+│   ├── en.json                       # English
+│   └── ar.json                       # Arabic
+│
+├── lib/                              # Utilities and service configuration
+│   ├── api/
+│   │   ├── client.js                 # API client placeholder
+│   │   └── endpoints.js              # API endpoints placeholder
+│   ├── constants/
+│   │   └── constantData.js           # Application constants
+│   ├── utils/
+│   │   └── helperFun.js              # Helper functions
+│   ├── validations/
+│   │   └── contact.schema.js         # Contact validation placeholder
+│   ├── site.js                       # Site configuration and SEO URLs
+│   └── utils.js                      # Shared utilities, including cn()
+│
+├── public/                           # Static public files
+│   ├── favicon.ico
+│   └── og-image.png                  # Default Open Graph image
+│
+├── styles/
+│   └── globals.css                   # Tailwind and global styles
+│
+├── docs/
+│   └── folder-structure.txt          # This file
+│
+├── proxy.ts                          # next-intl locale middleware
+├── next.config.mjs                   # Next.js and next-intl plugin config
+├── jsconfig.json                     # @/* path alias configuration
+├── components.json                   # UI component configuration
+├── postcss.config.mjs                # PostCSS and Tailwind configuration
+├── eslint.config.mjs                 # ESLint configuration
+├── package.json                      # Dependencies and scripts
+├── package-lock.json
+├── .env.example                      # Environment variable template
+├── .gitignore
+└── README.md

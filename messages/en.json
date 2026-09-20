@@ -1,0 +1,12 @@
+{
+    "metadata": {
+        "title": "Next Template",
+        "description": "A reusable Next.js starter template."
+    },
+    "HomePage": {
+        "title": "Hello world!"
+    },
+    "AboutPage": {
+        "title": "Hello world!"
+    }
+}

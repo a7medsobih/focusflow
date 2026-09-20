@@ -1,0 +1,12 @@
+{
+    "metadata": {
+        "title": "قالب Next.js",
+        "description": "قالب جاهز وقابل لإعادة الاستخدام لمشاريع Next.js."
+    },
+    "HomePage": {
+        "title": "مرحبا بالعالم"
+    },
+    "AboutPage": {
+        "title": "مرحبا بالعالم فى الابوت "
+    }
+}
