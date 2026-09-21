@@ -71,9 +71,6 @@ export default async function RootLayout({ children, params }) {
 
   const dir = locale === "ar" ? "rtl" : "ltr";
 
-  console.log("Current locale:", locale);
-  console.log("Text direction:", dir);
-
   return (
     <html lang={locale} dir={dir}>
       <body
