@@ -1,11 +1,22 @@
 // app/[locale]/page.js
-import { useTranslations } from "next-intl";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import Hero from "@/components/sections/Hero";
+import Features from "@/components/sections/Features";
+import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact";
 
 export default function Home() {
-  const t = useTranslations("HomePage");
   return (
     <>
-      <h1>{t("title")}</h1>
+      <Navbar />
+      <main>
+        <Hero />
+        <Features />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
     </>
   );
 }

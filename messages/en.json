@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "title": "Next Template",
-        "description": "A reusable Next.js starter template."
+        "title": "FocusFlow — Organize your day, boost your focus",
+        "description": "The simplest way to manage your daily tasks without distraction. Focus on what matters, nothing else."
     },
     "HomePage": {
         "title": "Hello world!"
